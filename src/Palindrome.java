@@ -1,7 +1,7 @@
 public class Palindrome {
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome("asdffdsa"));
+        System.out.println(isPalindrome("asdfdsa"));
     }
 
 //    private static boolean isPalindrome(String x) {
@@ -15,6 +15,10 @@ public class Palindrome {
 //    }
 
     private static boolean isPalindrome(String x) {
-        return new StringBuilder(x).reverse().toString().equals(new StringBuilder(x).toString());
+        return new StringBuilder(x).reverse().toString().equals(x);
     }
+
 }
+
+
+
